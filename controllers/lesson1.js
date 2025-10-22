@@ -1,16 +1,12 @@
-const marcosRoute = (req, res) => {
-  res.send("Marcos Silvera");
+const homeRoute = (req, res) => {
+  res.send("Hello World");
 };
 
-const marcosHomeRoute = (req, res) => {
-  res.send("Home - Marcos Silvera");
+const rootRoute = (req, res) => {
+  res.send("Hello");
 };
 
-const marcosAnotherRoute = (req, res) => {
-  res.send("Another - Marcos Silvera");
-};
 module.exports = {
-  marcosRoute,
-  marcosHomeRoute,
-  marcosAnotherRoute,
+  homeRoute,
+  rootRoute,
 };
