@@ -6,6 +6,6 @@ routes.get("/", (req, res) => {
   res.send("Hello World");
 });
 
-routes.use("/users", require("./users"));
+routes.use("/contacts", require("./contacts"));
 
 module.exports = routes;
