@@ -1,0 +1,16 @@
+### GET all contacts
+GET https://cse341-node-8tg1.onrender.com/contacts
+Accept: application/json
+
+### GET contact by id
+GET https://cse341-node-8tg1.onrender.com/contacts/68fd339f7aef11259abe7099
+Accept: application/json
+
+{
+  "_id": "68fd339f7aef11259abe7099",
+  "firstName": "Marcos",
+  "lastName": "Silvera",
+  "email": "marcos.silvera@example.com",
+  "favoriteColor": "blue",
+  "birthday": "1992-05-14"
+}
